@@ -98,8 +98,215 @@ img,
 .date {
   margin: 0 0 20px 0;
 }
+.date {
+  color: #eee;
+}
+.sent {
+  color: #eee;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: "Great Vibes" sans-serif;
+}
 body {
   text-align: center;
+  font-family: "Libre Baskerville", sans-serif;
+  font-style: italic;
+  font-size: 17px;
+  line-height: 1.3;
   color: peru;
-  
+  background: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png");
+  padding: 200px;
+}
+h1 {
+  font-family: "Great Vibes" cursive;
+  font-size: 80px;
+}
+h2 {
+  font-family: "Great Vibes" cursive;
+  font-size: 40px;
+}
+h3 {
+  font-family: "Great Vibes" cursive;
+  font-size: 30px;
+}
+ul li {
+  text-decoration: none;
+}
+p {
+  color: #444349;
+  font-family: "Muli" serif;
+  font-size: larger;
+}
+a {
+  color: #bd806e;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff7f50;
+  transition: 0.13s ease-in-out;
+}
+small {
+  color: #bd806e;
+}
+big {
+  color: coral;
+}
+big:hover {
+  transition: 0.13s ease-in-out;
+  color: maroon;
+}
+footer {
+  background: hsla(100, 0%, 0%, 0.6);
+}
+.locations,
+.program,
+.gifts,
+.faq,
+.contacts {
+  width: 95%;
+  margin: 13px auto;
+  padding: 10px;
+  border: 1px soid black;
+}
+.main {
+  border: 1px solid #444349;
+  box-shadow: 1px 1px 1px 4px#444349;
+  background: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg") center
+    no-repeat/cover fixed;
+  display: inline-table;
+  width: 100%;
+  height: 40vh;
+  border-radius: 8px;
+}
+.sent::after {
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 11.515625rem;
+  margin: 0.5rem auto;
+}
+.out-wrapper {
+  min-height: 25%;
+}
+.in-wrapper {
+  border-radius: 8px;
+  display: inline-table;
+  box-shadow: 0 0 15px #000;
+  background: hsla(100, 0%, 0%, 0.4);
+  padding: 30px 80px 30px 80px;
+  margin: 20% auto;
+  font-family: "Great Vibes" cursive;
+  font-size: 30px;
+}
+.date::before,
+.date::after {
+  display: inline-table;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 0.5rem auto;
+}
+.submod img {
+  height: 120px;
+  box-shadow: 0 0 10px #000;
+  border-radius: 8px;
+  padding: 10px 60px;
+}
+.submod h2 {
+  font-weight: 500;
+}
+.submod div {
+  font-family: "Muli" serif;
+}
+.submod::after {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 30vw;
+  margin: 1rem auto;
+  background-color: #444349;
+  border-radius: 8px;
+}
+.program {
+  background: hsla(100, 0%, 0%, 0.6);
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px 4px #d2ba87;
+  font-family: "Muli" sans-serif;
+}
+.program p {
+  color: #d2ba87;
+}
+.program h2 {
+  text-align: center;
+  font-family: "Great Vibes" cursive;
+  margin: 0 10px 0 0;
+}
+.program ul {
+  letter-spacing: 1px;
+}
+.gifts {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px 2px #d2ba87;
+  margin-top: 40px;
+}
+.gifts img {
+  height: 120px;
+  box-shadow: 0 0 10px #000;
+  display: scroll;
+  border-radius: 8px;
+  padding: 10px 60px;
+}
+.gifts p {
+  font-family: "Muli" sans-serif;
+  color: peru;
+}
+.gifts p:last-child {
+  margin-bottom: 0;
+}
+.faq {
+  background: hsla(100, 0%, 0%, 0.6);
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px 4px #d2ba87;
+  font-family: "Muli" sans-serif;
+  margin-top: 40px;
+}
+.question {
+  color: #cd5c5c;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, serif;
+  font-style: capitalize;
+  font-size: larger;
+  letter-spacing: 1px;
+}
+.answer {
+  color: #d2ba87;
+}
+h3 {
+  box-shadow: 0 0 10px #000;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 10px;
+}
+footer {
+  display: table;
+  width: 100%;
+  height: 80px;
+  padding: 0 0 30px 0;
+  margin: 2% auto;
+  box-shadow: 0 0 10px peru;
+  border-radius: 8px;
+}
+footer p {
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 0 20px 0;
+}
+footer small {
+  color: #eee;
 }
